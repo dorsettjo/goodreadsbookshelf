@@ -1,127 +1,57 @@
-body {
-  margin: 0; }
+/*
+Error: Invalid CSS after "  width:": expected expression (e.g. 1px, bold), was "}"
+        on line 99 of css/style.scss
 
-h1, h2, h3, h4, h5, h6, p {
-  margin-left: 30%;
-  column-rule-color: teal;
-  color: #298474; }
+94:   border-top: 5px solid #f4f6f9;
+95:   border-radius: 10px;
+96: }
+97: .drop1 {
+98:   width: 
+99: }
+100: 
+101: 
+102: .blackbar {
+103:   width: 10%;
+104:   height: 100vh;
 
-ul, li {
-  margin-left: 25%;
-  column-rule-color: teal;
-  color: ltteal; }
-
-h1 {
-  color: #298474; }
-
-.leftbar {
-  width: 10%;
-  height: 100vh;
-  background-color: black;
-  position: fixed; }
-
-.rightbars {
-  width: 90%;
-  background-color: blue;
-  height: 2000px; }
-
-.blackbar {
-  width: 10%;
-  height: 100vh;
-  background-color: black;
-  position: fixed; }
-
-.other {
-  width: 90%;
-  background-color: blue;
-  height: 2000px; }
-
-.header-section {
-  height: 300px;
-  width: 100%;
-  background-color: #498699;
-  margin: 0; }
-
-.main-container {
-  background-color: black;
-  width: 65%;
-  float: right;
-  /*   overflow: hidden; */ }
-
-.logo {
-  position: fixed;
-  left: 2%;
-  position: fixed;
-  top: 10%;
-  margin-right: 90%;
-  margin-left: 0%;
-  z-index: 100;
-  background-color: #f4f6f9;
-  border: 2px solid #f4f6f9;
-  border-right: 3px solid #f4f6f9;
-  border-top: 5px solid #f4f6f9;
-  border-radius: 10px; }
-
-.blackbar {
-  width: 10%;
-  height: 100vh;
-  background-color: black;
-  position: fixed; }
-
-.other {
-  width: 90%;
-  background-color: blue;
-  height: 2000px; }
-
-.topicbar {
-  background-color: #9dc1cc;
-  height: 300px;
-  width: 100%; }
-
-.topics {
-  background-color: #498699;
-  height: 300px;
-  width: 100%; }
-
-.topics li {
-  display: inline; }
-
-.quotationsandcomments {
-  clear: both;
-  font-size: 24px;
-  margin: 20%;
-  background-color: #9dc1cc; }
-
-.banner {
-  height: 150px;
-  color: #498699; }
-  .banner .banner-text {
-    padding: 0px 150px;
-    font-family: sans-serif;
-    line-height: 1.15;
-    font-size: 20px;
-    font-weight: normal;
-    background-color: #9dc1cc;
-    border: 20%; }
-
-button:hover {
-  color: #002266; }
-
-.homebar {
-  background-color: #9dc1cc;
-  position: relative;
-  top: 50%;
-  transform: translateY(100);
-  text-align: right; }
-
-.homebar button {
-  display: inline;
-  align-items: center; }
-
-@media only screen and (max-width: 500px) {
-  body {
-    background-color: lightblue; }
-    body .banner-text {
-      font-size: 35px; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+css/style.scss:99
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/parser.rb:704:in `assert_expr'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/parser.rb:75:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1051:in `sass_script'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:897:in `value!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:769:in `block in try_declaration'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `rethrow'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:782:in `try_declaration'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  width:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 99 of css/style.scss\A \A 94:   border-top: 5px solid #f4f6f9;\A 95:   border-radius: 10px;\A 96: }\A 97: .drop1 {\A 98:   width: \A 99: }\A 100: \A 101: \A 102: .blackbar {\A 103:   width: 10%;\A 104:   height: 100vh;"; }
