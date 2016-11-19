@@ -74,14 +74,14 @@ h1 {
   width: 100%;
   background-color:$teal;
   margin: 0;
-}
+  }
 
 .main-container {
  background-color: black;
  width: 65%;
  float: right;
 /*   overflow: hidden; */
-}
+  }
 .logo {
   position: fixed;left:2%;
   position: fixed;top: 10%;
@@ -93,22 +93,21 @@ h1 {
   border-right: 3px solid #f4f6f9;
   border-top: 5px solid #f4f6f9;
   border-radius: 10px;
-}
-
-
+  }
 
 .blackbar {
   width: 10%;
   height: 100vh;
   background-color: black;
   position: fixed;
-}
+  }
+
 .topic li {
   padding-top: 50px;
   padding-right: 25%;
   display: inline;
   height: 500px;
-}
+  }
 
 
 .other {
@@ -117,21 +116,21 @@ h1 {
   height: 2000px;
 }
 
-.topicbar {
+.topics bar {
   background-color: $ltteal;
   height:300px;
   width: 100%;
   // @include align-left;
 
-}
+  }
 .topics {
   background-color: $teal;
   height:300px;
   width: 100%;
-}
+  }
 .topics li {
   display: inline;
-}
+  }
 
 
 .quotationsandcomments {
@@ -139,11 +138,12 @@ h1 {
   font-size: 24px;
   margin: 20%;
   background-color: $ltteal;
-}
+  }
 
 .banner {
   height: 150px;
   color: $teal;
+  }
 
   .banner-text {
   // @include centering;
@@ -155,18 +155,17 @@ h1 {
   background-color: $ltteal;
   border: 20%;
 
-}
-
-}
+  }
 
   button:hover {
     color: $navy;
   }
+
   .homebar {
     background-color: $ltteal;
     @include align-right;
-
   }
+
   .homebar button {
     display: inline;
     align-items: center;
