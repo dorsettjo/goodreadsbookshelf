@@ -24,6 +24,8 @@
 body {
  margin: 0;}
 
+
+
 h1, h2, h3, h4, h5, h6, p {
  // margin-left: 30%;
  column-rule-color: teal;
@@ -46,7 +48,7 @@ h1 {
 
 
 .rightbars {
-  background-color: blue;
+  background-color: $navy;
 }
 
 .topicbar {
@@ -57,7 +59,7 @@ h1 {
 .blackbar {
   width: 10%;
   height: 100vh;
-  background-color: black;
+  background-color: $ltteal;
   position: fixed;
 }
 
@@ -81,6 +83,11 @@ h1 {
  background-color: black;
  width: 65%;
  float: right;
+ // background-image {
+ //    opacity: 50%;
+ //    size: cover;
+ //
+ //  }
 /*   overflow: hidden; */
   }
 .logo {
