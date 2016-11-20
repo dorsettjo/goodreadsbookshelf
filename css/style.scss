@@ -25,13 +25,12 @@ body {
  margin: 0;}
 
 h1, h2, h3, h4, h5, h6, p {
- margin-left: 30%;
+ // margin-left: 30%;
  column-rule-color: teal;
  color: #298474;
 }
 
 ul,li {
-  margin-left: 25%;
   column-rule-color: teal;
   color: ltteal;
 }
@@ -47,9 +46,11 @@ h1 {
 
 
 .rightbars {
-  width: 90%;
   background-color: blue;
-  height: 2000px;
+}
+
+.topicbar {
+  margin-left: 30%;
 }
 
 
@@ -102,12 +103,8 @@ h1 {
   position: fixed;
   }
 
-.topic li {
-  padding-top: 50px;
-  padding-right: 25%;
-  display: inline;
-  height: 500px;
-  }
+
+
 
 
 .other {
@@ -120,18 +117,33 @@ h1 {
   background-color: $ltteal;
   height:300px;
   width: 100%;
+  z-index: 200;
   // @include align-left;
 
   }
 .topics {
   background-color: $teal;
-  height:300px;
   width: 100%;
+  z-index: 200;
+  overflow: hidden;
   }
-.topics li {
+.topics p {
+  color: black;
+  text-align: center;
+  }
+.topics img {
+    z-index: 200;
+    width: 90%;
+    display: inline;
+  }
+.topics list {
   display: inline;
-  }
+}
 
+.bookcolumn {
+  width: 33%;
+  float: left;
+}
 
 .quotationsandcomments {
   clear: both;
