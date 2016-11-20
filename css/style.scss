@@ -39,6 +39,9 @@ ul,li {
 h1 {
   color: #298474;
 }
+h2 {
+  color: #298474;
+}
 .leftbar  {
   width: 10%;
   height: 100vh;
@@ -120,7 +123,7 @@ h1 {
   height: 2000px;
 }
 
-.topics bar {
+.topicsbar {
   background-color: $ltteal;
   height:300px;
   width: 100%;
@@ -135,7 +138,7 @@ h1 {
   overflow: hidden;
   }
 .topics p {
-  color: black;
+
   text-align: center;
   }
 .topics img {
@@ -150,9 +153,13 @@ h1 {
   text-decoration: underline;
   font-weight: bold;
 }
-a {
+
+.topics h2 {
   color: $white;
 }
+// a {
+//   color: $white;
+// }
 
 .bookcolumn {
   width: 33%;
