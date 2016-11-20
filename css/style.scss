@@ -48,7 +48,7 @@ h1 {
 
 
 .rightbars {
-  background-color: $navy;
+  background-color: $ltteal;
 }
 
 .topicbar {
@@ -157,11 +157,14 @@ h1 {
   font-size: 24px;
   margin: 20%;
   background-color: $ltteal;
+  text-align: right;
+  font: $Merriweather-Light;
   }
 
 .banner {
   height: 150px;
   color: $teal;
+  font: $Raleway-SemiBoldItalic;
   }
 
   .banner-text {
