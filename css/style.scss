@@ -145,6 +145,13 @@ h1 {
   }
 .topics list {
   display: inline;
+  font-size: 34px;
+  color: $white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+a {
+  color: $white;
 }
 
 .bookcolumn {
@@ -158,13 +165,13 @@ h1 {
   margin: 20%;
   background-color: $ltteal;
   text-align: right;
-  font-family: $Montserrat;
+  // font-family: $Montserrat;
   }
 
 .banner {
   height: 150px;
   color: $teal;
-  font-family: $Cormorant Garamond;
+  // font-family: $Cormorant Garamond;
   }
 
   .banner-text {
@@ -176,6 +183,7 @@ h1 {
   font-weight: normal;
   background-color: $ltteal;
   border: 20%;
+
 
   }
 
