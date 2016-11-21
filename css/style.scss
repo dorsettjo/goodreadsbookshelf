@@ -1,219 +1,90 @@
-
 @import "partials/colors";
 @import "partials/fonts";
 
-@mixin align-left {
-  position: relative;
-  top: 50%;
-  transform: translateY(-95%);
-  text-align: left;
-}
-@mixin align-right {
-  position: relative;
-  top: 50%;
-  transform: translateY(100);
-  text-align: right;
-}
-@mixin centering {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-}
-
-body {
- margin: 0;}
-
-
-
-h1, h2, h3, h4, h5, h6, p {
- // margin-left: 30%;
- column-rule-color: teal;
- color: #298474;
-}
-
-ul,li {
-  column-rule-color: teal;
-  color: ltteal;
-}
-h1 {
-  color: #298474;
-}
-h2 {
-  color: #298474;
-}
 .leftbar  {
-  width: 10%;
-  height: 100vh;
   background-color: black;
-  position: fixed;
-}
-
-
-.rightbars {
-  background-color: $ltteal;
-}
-
-.topicbar {
-  margin-left: 30%;
-}
-
-
-.blackbar {
-  width: 10%;
   height: 100vh;
-  background-color: $ltteal;
+  width: 10%;
   position: fixed;
 }
 
-
-.other {
-  width: 90%;
-  background-color: $teal;
-  height: 2000px;
+header {
+  background-color: $ltteal;
 }
 
+.main {
+  padding-left: 10%;
+}
 
+.dropdown {
+  height: 50px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 5%;
+}
 
-.header-section {
-  height:300px;
-  width: 100%;
-  background-color:$teal;
-  margin: 0;
-  }
-
-.main-container {
- background-color: black;
- width: 65%;
- float: right;
- // background-image {
- //    opacity: 50%;
- //    size: cover;
- //
- //  }
-/*   overflow: hidden; */
-  }
 .logo {
-  position: fixed;left:2%;
-  position: fixed;top: 10%;
-  margin-right: 90%;
-  margin-left: 0%;
-  z-index: 100;
-  background-color: #f4f6f9;
-  border: 2px solid #f4f6f9;
-  border-right: 3px solid #f4f6f9;
-  border-top: 5px solid #f4f6f9;
-  border-radius: 10px;
-  }
-
-.blackbar {
-  width: 10%;
-  height: 100vh;
-  background-color: black;
-  position: fixed;
-  }
-
-
-
-
-
-.other {
-  width: 90%;
-  background-color: orange;
-  height: 2000px;
+  margin-top: 50px;
+  margin-left: 1%;
 }
 
-.topicsbar {
-  background-color: $ltteal;
-  height:300px;
-  width: 100%;
-  z-index: 200;
-  // @include align-left;
+ .topicbar {
+    background-color: $teal;
 
-  }
-.topics {
-  background-color: $teal;
-  width: 100%;
-  z-index: 200;
-  overflow: hidden;
-  }
-.topics p {
-
-  text-align: center;
-  }
-.topics img {
-    z-index: 200;
-    width: 90%;
-    display: inline;
-  }
-.topics list {
-  display: inline;
-  font-size: 34px;
-  color: $white;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.topics h2 {
-  color: $white;
-}
-// a {
-//   color: $white;
-// }
-
-.bookcolumn {
-  width: 33%;
-  float: left;
-}
-
-.quotationsandcomments {
-  clear: both;
-  font-size: 24px;
-  margin: 20%;
-  background-color: $ltteal;
-  text-align: right;
-  // font-family: $Montserrat;
-  }
-
-.banner {
-  height: 150px;
-  color: $teal;
-  // font-family: $Cormorant Garamond;
-  }
-
-  .banner-text {
-  // @include centering;
-  padding: 0px 150px;
-  font-family: sans-serif;
-  line-height: 1.15;
-  font-size: 20px;
-  font-weight: normal;
-  background-color: $ltteal;
-  border: 20%;
-
-
-  }
-
-  button:hover {
-    color: $navy;
-  }
-
-  .homebar {
-    background-color: $ltteal;
-    @include align-right;
-  }
-
-  .homebar button {
-    display: inline;
-    align-items: center;
-  }
-
-
-  @media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-        .banner-text {
-          font-size: 35px;
-        }
+    h2 {
+      display: inline;
     }
+
+    h1 {
+      display: inline;
+    }
+ }
+ // .currentbooks .pastbooks {
+ //  display: inline;
+ // }
+
+ .currentbooks {
+   width: 45%;
+   float: left;
+
+     img {
+     background-color: black;
+     padding: 20px;
+     display: block;
+     margin: 0 auto;
+   }
+
+  h4 {
+    text-align: center;
+  }
+ }
+
+ .textbox {
+   background-color: black;
+   color: white;
+ }
+
+ .pastbooks {
+   width: 45%;
+   float:right;
+
+     img {
+     background-color: black;
+     padding: 20px;
+     display: block;
+     margin: 0 auto;
+   }
+
+  h4 {
+    text-align: center;
+  }
+ }
+ .quotationsandcomments {
+   clear:both;
+   border:1px solid black;
+
+ }
+.homebar {
+  background-color: $ltteal;
+  background-size: 5%;
 }
