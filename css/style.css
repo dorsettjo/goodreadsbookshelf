@@ -10,55 +10,98 @@ header {
 .main {
   padding-left: 10%; }
 
-.dropdown {
+.normal, .hover {
   height: 50px;
   float: right;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-right: 5%; }
 
+.normal {
+  position: absolute;
+  right: -7px;
+  top: 0px; }
+
+.normal:hover {
+  opacity: 0; }
+
 .logo {
-  margin-top: 50px;
-  margin-left: 1%; }
+  margin-top: 15px;
+  margin-left: 2%;
+  padding-bottom: 70px; }
 
 .topicbar {
   background-color: #498699; }
   .topicbar h2 {
-    display: inline; }
+    display: inline;
+    margin-left: 2%; }
   .topicbar h1 {
     display: inline; }
 
-.currentbooks {
-  width: 45%;
-  float: left; }
-  .currentbooks img {
-    background-color: black;
-    padding: 20px;
-    display: block;
-    margin: 0 auto; }
-  .currentbooks h4 {
-    text-align: center; }
+.books {
+  width: 46%;
+  float: left;
+  margin: 0 2%; }
+  .books a {
+    color: #498699;
+    text-transform: uppercase; }
+
+.image-wrap {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  padding: 20px;
+  box-sizing: border-box; }
+  .image-wrap img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%; }
+
+h4 {
+  text-align: center; }
 
 .textbox {
   background-color: black;
-  color: white; }
-
-.pastbooks {
-  width: 45%;
-  float: right; }
-  .pastbooks img {
-    background-color: black;
-    padding: 20px;
-    display: block;
-    margin: 0 auto; }
-  .pastbooks h4 {
-    text-align: center; }
+  color: white;
+  margin-bottom: 10px; }
 
 .quotationsandcomments {
   clear: both;
-  border: 1px solid black; }
+  border: 1px solid black;
+  margin-top: 10px; }
+
+.quotationsandcomments p {
+  text-align: left;
+  padding: 15px; }
 
 .homebar {
   background-color: #9dc1cc;
-  background-size: 5%; }
+  background-size: 15%; }
+
+.homebar h4 {
+  display: inline;
+  text-align: center;
+  font-style: italic; }
+
+.homebar button {
+  float: left;
+  width: 31.3%;
+  border: 10px solid #9dc1cc;
+  box-sizing: border-box;
+  margin: 1%;
+  padding: 10px; }
+
+@media (max-width: 767px) {
+  .menu {
+    display: none; }
+
+  nav ul {
+    display: none; }
+
+  .header-text {
+    width: 90%; }
+
+  article {
+    float: none;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

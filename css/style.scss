@@ -16,23 +16,39 @@ header {
   padding-left: 10%;
 }
 
-.dropdown {
+.normal, .hover {
   height: 50px;
   float: right;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-right: 5%;
 }
 
+
+
+.normal {
+  position: absolute;
+   right: -7px;
+   top: 0px;
+}
+
+.normal:hover {
+  opacity: 0;
+}
+
+
 .logo {
-  margin-top: 50px;
-  margin-left: 1%;
+  margin-top: 15px;
+  margin-left: 2%;
+  padding-bottom: 70px;
 }
 
  .topicbar {
     background-color: $teal;
 
+
     h2 {
       display: inline;
+      margin-left: 2%;
     }
 
     h1 {
@@ -43,48 +59,92 @@ header {
  //  display: inline;
  // }
 
- .currentbooks {
-   width: 45%;
+ .books {
+   width: 46%;
    float: left;
+   margin: 0 2%;
 
-     img {
-     background-color: black;
-     padding: 20px;
-     display: block;
-     margin: 0 auto;
+   a {
+     color: $teal;
+     text-transform: uppercase;
    }
+
+}
+
+// .textbox-title {
+//    font-family: serif;
+//    font-style: italic;
+//    font-size:
+//  }
+
+.image-wrap {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+
+  img {
+    object-fit: contain;
+    width: 100%;
+    height:100%;
+  }
+}
+
 
   h4 {
     text-align: center;
-  }
  }
 
  .textbox {
    background-color: black;
    color: white;
+   margin-bottom: 10px;
  }
 
- .pastbooks {
-   width: 45%;
-   float:right;
 
-     img {
-     background-color: black;
-     padding: 20px;
-     display: block;
-     margin: 0 auto;
-   }
-
-  h4 {
-    text-align: center;
-  }
- }
  .quotationsandcomments {
    clear:both;
    border:1px solid black;
+   margin-top: 10px;
+
+ }
+
+ .quotationsandcomments p {
+   text-align: left;
+   padding: 15px;
 
  }
 .homebar {
   background-color: $ltteal;
-  background-size: 5%;
+  background-size: 15%;
 }
+
+.homebar  h4 {
+display: inline;
+  text-align: center;
+  font-style: italic;
+}
+.homebar button {
+ float: left;
+ width: 31.3%;
+ border: 10px solid $ltteal;
+ box-sizing: border-box;
+ margin: 1%;
+ padding: 10px;
+}
+
+
+   @media (max-width: 767px) {
+     .menu {
+       display: none }
+
+     nav ul {
+       display: none; }
+
+     .header-text {
+       width: 90%; }
+
+     article {
+       float: none;
+       width: 100%; } }
