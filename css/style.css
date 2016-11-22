@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto", sans-serif; }
+
 .leftbar {
   background-color: black;
   height: 100vh;
@@ -69,9 +72,40 @@ h4 {
   border: 1px solid black;
   margin-top: 10px; }
 
-.quotationsandcomments p {
+#quotationsandcomments p {
   text-align: left;
-  padding: 15px; }
+  padding: 15px;
+  margin-left: 10%; }
+
+.quotationsandcomments2 {
+  clear: both;
+  border: 1px solid black;
+  margin-top: 10px; }
+
+#quotationsandcomments2 p {
+  text-align: left;
+  padding: 15px;
+  margin-left: 10%; }
+
+.quotationsandcomments3 {
+  clear: both;
+  border: 1px solid black;
+  margin-top: 10px; }
+
+#quotationsandcomments3 p {
+  text-align: left;
+  padding: 15px;
+  margin-left: 10%; }
+
+.quotationsandcomments4 {
+  clear: both;
+  border: 1px solid black;
+  margin-top: 10px; }
+
+#quotationsandcomments4 p {
+  text-align: left;
+  padding: 15px;
+  margin-left: 10%; }
 
 .homebar {
   background-color: #9dc1cc;
